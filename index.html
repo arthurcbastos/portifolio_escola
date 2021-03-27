@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">  
+    <title>Portfólio-1</title>
+    
+</head>
+<body>
+   <header>
+       <nav>
+           <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+           <div class="nav-link" id="navLink">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="sobre.html">Sobre</a></li>
+                   <li><a href="cursos.html">Cursos</a></li>
+                   <li><a href="blog.html">Blog</a></li>
+                   <li><a href="contato.html">Contato</a></li>                   
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+       <div class="text-box">
+           <h1>Conehcimento é a chave do sucesso</h1>
+           <p>Página criada para fins de estudo e portifólio</p>
+           <a href="#" class="hero-btn">Saiba mais</a>
+       </div>
+   </header>
+
+   <!--Cursos-->
+   <section class="cursos">
+    <h1>Conheça nossos cursos</h1>
+    <p>Somos pioneiros em ensino a distância.</p>
+
+    <div class="row">
+        <div class="curso-col">
+            <h3>Iniciante</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Vivamus vel tortor vel purus eleifend interdum nec sit amet tellus.
+               Nulla eu molestie leo. Phasellus tempor posuere elementum. </p>
+        </div>
+        <div class="curso-col">
+            <h3>Intermediário</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Vivamus vel tortor vel purus eleifend interdum nec sit amet tellus.
+               Nulla eu molestie leo. Phasellus tempor posuere elementum. </p>
+        </div>
+        <div class="curso-col">
+            <h3>Avançado</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Vivamus vel tortor vel purus eleifend interdum nec sit amet tellus.
+               Nulla eu molestie leo. Phasellus tempor posuere elementum. </p>
+        </div>
+    </div>
+   </section>
+
+   <!--Unidades-->
+   <section class="campus">
+       <h1>Conheça nossos campus</h1>
+       <p>Localização privilegiada próximo ao metro.</p>
+
+       <div class="row">
+           <div class="campus-col">
+               <img src="assets/img/london.png" alt="campus">
+               <div class="layer">
+                   <h3>São Paulo</h3>
+               </div>
+           </div>
+           <div class="campus-col">
+            <img src="assets/img/washington.png" alt="campus">
+            <div class="layer">
+                <h3>Rio de Janeiro</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="assets/img/newyork.png" alt="campus">
+            <div class="layer">
+                <h3>Minas Gerais</h3>
+            </div>
+        </div>
+       </div>
+   </section>
+
+   <!--Diferencial-->
+   <section class="diferencial">
+       <h1>Nosso Diferencial</h1>
+       <p>Estrutura pensada para melhor qualidade de ensino para os alunos.</p>
+
+       <div class="row">
+           <div class="diferencial-col">
+               <img src="assets/img/library.png" alt="biblioteca">
+               <h3>Biblioteca atualizada anualmente</h3>
+               <p>Contamos com o maior acervo da américa latina, 
+                e dispomos de material para atender todos os alunos.</p>
+           </div>
+           <div class="diferencial-col">
+            <img src="assets/img/basketball.png" alt="quadra">
+            <h3>Quadra poliesportiva</h3>
+            <p>Espaço dedicado para atividades físicas, podendo ser usada 24 horas.</p>
+        </div>
+        <div class="diferencial-col">
+            <img src="assets/img/cafeteria.png" alt="cafeteria">
+            <h3>Cafeteria</h3>
+            <p>Cafeteria com mais de 60 tipos de café e chás,
+                espaço dedicado para pequenas reuniões.</p>
+        </div>
+       </div>
+   </section>
+
+   <!--Alunos-->
+   <section class="depoimentos">
+       <h1>Depoimentos</h1>
+       <p>O que dizem nossos alunos</p>
+
+       <div class="row">
+           <div class="depoimentos-col">
+               <img src="assets/img/user1.jpg" alt="user">
+               <div>
+                   <p>“Muito satisfeita com o treinamento,
+                    o instrutor soube disseminar o conteúdo  e tornar o mais dinâmico possível.”</p>
+                    <h3>Eugênia C. M. Duarte</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+               </div>
+           </div>
+           <div class="depoimentos-col">
+            <img src="assets/img/user2.jpg" alt="user">
+            <div>
+                <p>“Muito satisfeito com o treinamento,
+                    aulas dinâmicas e instrutor muito didático.”</p>
+                 <h3>José H. S. Costa</h3>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+       </div>
+   </section>
+
+   <!--Chamada da ação-->
+   <section class="cta">
+       <h1>Inscreva-se em nossos cursos online<br> E estude em qualquer lugar do mundo</h1>
+       <a href="#" class="hero-btn">Contate-nos</a>
+   </section>
+
+   <!--Footer-->
+   <section class="footer">
+       <h4>Missão</h4>
+       <p>Capacitação profissional e soluções de tecnologia para pessoas e empresas gerando valor para nossos clientes,<br>
+         maximizando o potencial dos indivíduos e de seus negócios.</p>
+
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-linkedin"></i>
+         </div>
+         <p>Criado com <i class="fa fa-heart"></i> para fins de estudo e portifólio</p>
+   </section>
+
+
+
+
+
+
+
+
+
+
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
